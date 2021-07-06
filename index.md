@@ -1,25 +1,25 @@
----
-title: Online Hosted Instructions
+﻿---
+title: 線上託管指示
 permalink: index.html
 layout: home
 ---
 
-# Content Directory
+# 內容目錄
 
-Hyperlinks to each of the lab exercises and demos are listed below.
+以下列出每個實驗室練習和示範的超連結。
 
-## Labs
+## 實驗室
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| Module | Lab |
+| 單元 | 實驗室 |
 | --- | --- | 
 {% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
-## Demos
+## 示範
 
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| Module | Demo |
+| 單元 | 示範 |
 | --- | --- | 
 {% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
