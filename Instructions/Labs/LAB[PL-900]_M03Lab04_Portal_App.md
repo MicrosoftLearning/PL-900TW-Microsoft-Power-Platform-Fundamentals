@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '實驗室 5：如何建立 Power Apps 入口網站'
     module: '單元 3：Power Apps 入門'
