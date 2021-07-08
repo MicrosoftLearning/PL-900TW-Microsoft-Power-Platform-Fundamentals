@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '實驗室 4：如何建立模型導向應用程式'
     module: '單元 3：Power Apps 入門'

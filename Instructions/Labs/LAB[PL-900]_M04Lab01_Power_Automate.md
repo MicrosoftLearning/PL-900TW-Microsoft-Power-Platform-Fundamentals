@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '實驗室 6：如何建立自動化解決方案'
     module: '單元 4：Power Automate 入門'
