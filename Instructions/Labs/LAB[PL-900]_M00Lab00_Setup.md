@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '實驗室：驗證實驗室環境'
     module: '單元 0：課程簡介'
@@ -10,11 +10,9 @@ lab:
 ## 實驗室：驗證實驗室環境
 
 ### 重要通知 (自 2020 年 11 月起生效)：
-Common Data Service 已更名為 Microsoft Dataverse。Microsoft Dataverse 中採用的部分詞彙已經更新。例如，實體現在改稱資料表。Dataverse 資料庫中的欄位和記錄現在稱為資料行和資料列。
+Common Data Service 已更名為 Microsoft Dataverse。Microsoft Dataverse 中採用的部分詞彙已經更新。例如實體 [現在稱為 **資料表**]、欄位 [現在稱為 **資料行**] 及記錄 [現在稱為 **資料列**] 的部分參考資料可能尚未更新。當您在進行實驗室作業時，請記住這一點。我們預期很快就會完全更新提供的內容。 
 
-當應用程式在更新其使用者體驗時，Microsoft Dataverse 詞彙 (例如實體 [現在稱為 **資料表**]、欄位 [現在稱為 **資料行**] 及記錄 [現在稱為 **資料列**]) 的部分參考資料可能尚未更新。當您在進行實驗室作業時，請記住這一點。我們預期很快就會完全更新提供的內容。 
-
-如需詳細資訊及受影響字詞的完整清單，請造訪 [什麼是 Microsoft Dataverse？](https://docs.microsoft.com/zh-tw/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
+如需詳細資訊及受影響字詞的完整清單，請造訪[什麼是 Microsoft Dataverse？](https://docs.microsoft.com/zh-tw/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
 
 案例
 --------
@@ -53,7 +51,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
     
     - 針對 **[類型]**，選取 **[試用]** (請勿選取 [試用 (訂閱型)] 選項)。
     
-    - 將 **[是否為此環境建立資料庫?]** 上的開關變更為 **[是]**。
+    - 將 **[是否為此環境建立資料庫?]**上的開關變更為 **[是]**。
     
     - 將所有其他選項保留為預設值，然後按 **[下一步]**。
     
@@ -65,7 +63,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
 
 # 練習 2：佈建 Power Apps 入口網站
 
-**目標：** 佈建 Power Apps 入口網站可能需要一些時間。在此練習中，您將在自己的環境中建立 Power Apps 入口網站，以便啟動佈建程序。您將在稍後的實驗室中用到此入口網站。
+**目標：**佈建 Power Apps 入口網站可能需要一些時間。在此練習中，您將在自己的環境中建立 Power Apps 入口網站，以便啟動佈建程序。您將在稍後的實驗室中用到此入口網站。
 
 ## 工作 1：建立 Power Apps 入口網站
 
@@ -79,9 +77,9 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
 
 4.  提供新入口網站的詳細資料。
 
-    -   輸入 **[Bellows College 訪客]** 做為入口網站 **[名稱]**
+    -   輸入 **[```Bellows College 訪客```]** 做為入口網站 **[名稱]**
 
-    -   提供唯一的 URL； **某名稱** .powerappsportals.com (如果該名稱已有人使用，請選擇其他名稱)
+    -   提供唯一的 URL；**某名稱**.powerappsportals.com (如果該名稱已有人使用，請選擇其他名稱)
 
     -   選取基礎入口網站**語言**
 
