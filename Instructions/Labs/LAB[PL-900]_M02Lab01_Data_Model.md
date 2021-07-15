@@ -1,16 +1,14 @@
 ---
 lab:
-    title: '實驗室 1： 資料模型'
-    module: '單元 2： Microsoft Dataverse 簡介'
+    title: '實驗室 1：資料模型'
+    module: '單元 2：Microsoft Dataverse 簡介'
 ---
 
-# 單元 2： Microsoft Dataverse 簡介
+# 單元 2：Microsoft Dataverse 簡介
 ## 實驗室：資料模型
 
 ### 重要通知 (自 2020 年 11 月起生效)：
-Common Data Service 已更名為 Microsoft Dataverse。Microsoft Dataverse 中採用的部分詞彙已經更新。例如，實體現在改稱資料表。Dataverse 資料庫中的欄位和記錄現在稱為資料行和資料列。
-
-當應用程式在更新其使用者體驗時，Microsoft Dataverse 詞彙 (例如實體 [現在稱為 **資料表**]、欄位 [現在稱為 **資料行**] 及記錄 [現在稱為 **資料列**]) 的部分參考資料可能尚未更新。當您在進行實驗室作業時，請記住這一點。
+Common Data Service 已更名為 Microsoft Dataverse。Microsoft Dataverse 中採用的部分詞彙已經更新。例如實體 [現在稱為 **資料表**]、欄位 [現在稱為 **資料行**] 及記錄 [現在稱為 **資料列**] 的部分參考資料可能尚未更新。當您在進行實驗室作業時，請記住這一點。我們預期很快就會完全更新提供的內容。
 
 如需詳細資訊及受影響字詞的完整清單，請造訪[什麼是 Microsoft Dataverse？](https://docs.microsoft.com/zh-tw/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
 
@@ -35,7 +33,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
 為準備您的學習環境，您必須：
 
 * 建立解決方案和發佈者
-* 新增所需的新元件和現有元件，以符合應用程式需求。如需中繼資料描述 (資料表和關聯性)，請參閱[資料模型文件](https://raw.githubusercontent.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/update-march-2021/Allfiles/Campus%20Management.png)。您可以按住 CTRL 並在連結上按一下滑鼠左鍵，或在連結上按一下滑鼠右鍵，以在新視窗中開啟資料模型文件。
+* 新增所需的新元件和現有元件，以符合應用程式需求。如需中繼資料描述 (資料表和關聯性)，請參閱[資料模型文件](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus%20Management.png)。您可以按住 CTRL 並在連結上按一下滑鼠左鍵，或在連結上按一下滑鼠右鍵，以在新視窗中開啟資料模型文件。
 
 完成所有自訂項目後，您的解決方案將包含數個資料表：
 
@@ -67,7 +65,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
 
     -   從左側功能表中選取 **[解決方案]**，然後按一下 **[新增解決方案]**。
 
-    -   輸入 **[(您的姓氏) 校園管理]** 做為 **[顯示名稱]**。
+    -   輸入 **[[您的姓氏] 校園管理]** 做為 **[顯示名稱]**。
 
 2.  建立發佈者
 
@@ -248,7 +246,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
     
     * 按一下 **[新增關聯性]**，然後選取 **[多對一]**
     
-    * 針對 **[相關項目 (一個)]**，選取 **[連絡人]**  
+    * 針對 **[相關項目 (一個)]**，選取 **[連絡人]** 
     
     * 輸入 **[訪客]** 做為 **[查詢資料行顯示名稱]** 
     
@@ -274,15 +272,15 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
 
 在此工作中，您將匯入包含完成資料匯入所需之 Power Automate 流程的解決方案。
 
-1. 您應將 **DataImport_managed.zip** 檔案儲存在桌面上。如果尚未儲存，請下載[資料匯入解決方案](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/update-march-2021/Allfiles/DataImport_managed.zip?raw=true)。
+1. 您應將 **DataImport_managed.zip** 檔案儲存在桌面上。如果尚未儲存，請下載[資料匯入解決方案](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/DataImport_managed.zip?raw=true)。
 
 2. 登入 <https://make.powerapps.com>。
 
-3. 如果尚未選取，請在右上方選取您的 **[(我的縮寫名) 練習]** 環境。
+3. 如果尚未選取，請在右上方選取您的 **[[我的縮寫名] 練習]** 環境。
 
 4. 在左側導覽面板中選取 **[解決方案]**。
 
-5. 按一下 **[匯入]**，然後按一下 **[瀏覽]**。瀏覽並選取桌面的 **DataImport_managed.zip**，然後按 **[下一步]**。
+5. 按一下 **[匯入]**， 然後按一下 **[瀏覽]**。 瀏覽並選取桌面的 **DataImport_managed.zip**，然後按 **[下一步]**。
 
 >   您可能會收到下列訊息：
 >
@@ -312,7 +310,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
 
 2. 檢查 **[匯入資料]** 流程的 **[狀態]**。
 
-3. 如果 **[狀態]** 為 **[關閉]**，請選取 **[匯入資料]** 旁邊的 **...**，然後選取 **[開啟]**。
+3. 如果 **[狀態]** 為 **[關閉]**，請選取 **[匯入資料]** 旁邊的 **[...]**，然後選取 **[開啟]**。
 
    > **重要：** 如果收到錯誤訊息，請確認您建立的資料表和資料行與上述指示相符。
 

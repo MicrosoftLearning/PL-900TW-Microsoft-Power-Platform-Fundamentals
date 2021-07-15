@@ -9,11 +9,9 @@ lab:
 ## 實驗室：如何建立畫布應用程式 (第 1 部分)
 
 ### 重要通知 (自 2020 年 11 月起生效)：
-Common Data Service 已更名為 Microsoft Dataverse。Microsoft Dataverse 中採用的部分詞彙已經更新。例如，實體現在改稱資料表。Dataverse 資料庫中的欄位和記錄現在稱為資料行和資料列。
+Common Data Service 已更名為 Microsoft Dataverse。Microsoft Dataverse 中採用的部分詞彙已經更新。例如實體 [現在稱為 **資料表**]、欄位 [現在稱為 **資料行**] 及記錄 [現在稱為 **資料列**] 的部分參考資料可能尚未更新。當您在進行實驗室作業時，請記住這一點。我們預期很快就會完全更新提供的內容。
 
-當應用程式在更新其使用者體驗時，Microsoft Dataverse 詞彙 (例如實體 [現在稱為 **資料表**]、欄位 [現在稱為 **資料行**] 及記錄 [現在稱為 **資料列**]) 的部分參考資料可能尚未更新。當您在進行實驗室作業時，請記住這一點。
-
-如需詳細資訊及受影響字詞的完整清單，請造訪 [什麼是 Microsoft Dataverse？](https://docs.microsoft.com/zh-tw/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
+如需詳細資訊及受影響字詞的完整清單，請造訪[什麼是 Microsoft Dataverse？](https://docs.microsoft.com/zh-tw/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
 
 # 案例
 
@@ -67,13 +65,9 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
 
     -   按一下 **[新增應用程式]**，然後選取 **[畫布]**。
 
-    -   選取 **Common Data Service** 底下的 **[手機配置]**。
+    -   選取 **Microsoft Dataverse (舊版)** 底下的 **[手機配置]**。
 
-3.  選取 **Common Data Service** 連線下的 **[建立]**
-
-4.  選取 **[造訪情形]** 資料表
-
-5.  按一下 **[連線]**
+4.  選取 **[造訪情形]** 資料表。按一下 **[連接]**。
 
 6.  可能會顯示 **[歡迎使用 Power Apps Studio]** 視窗。按一下 **[略過]**。
 

@@ -9,9 +9,7 @@ lab:
 ## 實驗室 4：如何建立 Power Apps 入口網站
 
 ### 重要通知 (自 2020 年 11 月起生效)：
-Common Data Service 已更名為 Microsoft Dataverse。Microsoft Dataverse 中採用的部分詞彙已經更新。例如，實體現在改稱資料表。Dataverse 資料庫中的欄位和記錄現在稱為資料行和資料列。
-
-當應用程式在更新其使用者體驗時，Microsoft Dataverse 詞彙 (例如實體 [現在稱為 **資料表**]、欄位 [現在稱為 **資料行**] 及記錄 [現在稱為 **資料列**]) 的部分參考資料可能尚未更新。當您在進行實驗室作業時，請記住這一點。我們預期很快就會完全更新提供的內容。 
+Common Data Service 已更名為 Microsoft Dataverse。Microsoft Dataverse 中採用的部分詞彙已經更新。例如實體 [現在稱為 **資料表**]、欄位 [現在稱為 **資料行**] 及記錄 [現在稱為 **資料列**] 的部分參考資料可能尚未更新。當您在進行實驗室作業時，請記住這一點。我們預期很快就會完全更新提供的內容。 
 
 如需詳細資訊及受影響字詞的完整清單，請造訪[什麼是 Microsoft Dataverse？](https://docs.microsoft.com/zh-tw/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
 
@@ -104,7 +102,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
 
     -   在新的文字區域中輸入下列文字：
           ```
-          The following is the building directory.
+            The following is the building directory.
           ```
     -   選取在您剛才編輯之文字方塊上方的文字方塊，然後在命令列上按一下 **[刪除]** 以刪除預設文字。
 
@@ -188,7 +186,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
     
     -   按一下 **[啟用基本佈景主題]** 的切換開關以開啟此功能。
     
-    -   在其中一個預設上，按一下省略符號 (**...**) 並選擇 **[自訂]**
+    -   在其中一個預設上，按一下省略符號 (**...**)，並選擇 **[自訂]**
     
     -   基本佈景主題的複本已建立。 
     
