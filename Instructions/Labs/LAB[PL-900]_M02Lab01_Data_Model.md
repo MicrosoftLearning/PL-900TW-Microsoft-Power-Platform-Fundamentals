@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '實驗室 1：資料模型'
     module: '單元 2：Microsoft Dataverse 簡介'
