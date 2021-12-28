@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '實驗室 2：如何建立畫布應用程式 (第 1 部分)'
     module: '單元 3：Power Apps 入門'
@@ -7,11 +7,6 @@ lab:
 # 單元 3：Power Apps 入門
 
 ## 實驗室：如何建立畫布應用程式 (第 1 部分)
-
-### 重要通知 (自 2020 年 11 月起生效)：
-Common Data Service 已更名為 Microsoft Dataverse。Microsoft Dataverse 中採用的部分詞彙已經更新。例如實體 [現在稱為 **資料表**]、欄位 [現在稱為 **資料行**] 及記錄 [現在稱為 **資料列**] 的部分參考資料可能尚未更新。當您在進行實驗室作業時，請記住這一點。我們預期很快就會完全更新提供的內容。
-
-如需詳細資訊及受影響字詞的完整清單，請造訪[什麼是 Microsoft Dataverse？](https://docs.microsoft.com/zh-tw/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
 
 # 案例
 
@@ -220,7 +215,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
            TextSearchBox1.Text,
        	"bc_code","bc_name"
        ),
-     "bc_code",
+     "bc_scheduledstart",
      If(SortDescending1, Descending, Ascending)
    )
    ```
@@ -283,7 +278,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
    
 2. 選取 **[新增現有項目]**，按一下 **[應用程式]**，然後按一下 **[畫布應用程式]**。
 
-3. 選取 **[外部解決方案]** 索引標籤。
+3. 選取 **[外部 Dataverse]** 索引標籤。
 
 4. 選取 **[校園教職員]** 應用程式，然後按一下 **[新增]**。
 

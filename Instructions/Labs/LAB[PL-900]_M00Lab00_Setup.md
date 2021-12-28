@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '實驗室：驗證實驗室環境'
     module: '單元 0：課程簡介'
@@ -6,13 +6,6 @@ lab:
 
 單元 0：課程簡介
 =================================
-
-## 實驗室：驗證實驗室環境
-
-### 重要通知 (自 2020 年 11 月起生效)：
-Common Data Service 已更名為 Microsoft Dataverse。Microsoft Dataverse 中採用的部分詞彙已經更新。例如實體 [現在稱為 **資料表**]、欄位 [現在稱為 **資料行**] 及記錄 [現在稱為 **資料列**] 的部分參考資料可能尚未更新。當您在進行實驗室作業時，請記住這一點。我們預期很快就會完全更新提供的內容。 
-
-如需詳細資訊及受影響字詞的完整清單，請造訪[什麼是 Microsoft Dataverse？](https://docs.microsoft.com/zh-tw/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
 
 案例
 --------
@@ -27,7 +20,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
 
 ## 練習 1：設定
 
-### 工作 1：取得您的 Power Platform 試用租用戶
+### 工作 1：取得您的 Microsoft Power Platform 試用租用戶
 
 1. 從授權實驗室主機服務提供者複製您的 **Microsoft 365 認證**。
 
@@ -41,9 +34,11 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
 
 6. 選取 **[是]** 以保持登入狀態。
 
+7. 填寫您的帳戶資訊，然後選取 [**開始**] 注册您的 Microsoft Power Platform 試用版。  
+
 ### 工作 2：建立環境
 
-1.  存取 <https://admin.powerplatform.microsoft.com>，然後於再次出現提示時，使用您的 Microsoft 365 認證登入。
+1. 存取 <https://admin.powerplatform.microsoft.com>，然後於再次出現提示時，使用您的 Microsoft 365 認證登入。
 
 2. 選取 **[環境]**，然後按一下 **[+ 新增]**。
 
