@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '實驗室 8：如何建立基本聊天機器人'
     module: '單元 6：Power Virtual Agents 簡介'
