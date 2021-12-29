@@ -5,12 +5,6 @@ lab:
 ---
 
 # 單元 2：Microsoft Dataverse 簡介
-## 實驗室：資料模型
-
-### 重要通知 (自 2020 年 11 月起生效)：
-Common Data Service 已更名為 Microsoft Dataverse。Microsoft Dataverse 中採用的部分詞彙已經更新。例如實體 [現在稱為 **資料表**]、欄位 [現在稱為 **資料行**] 及記錄 [現在稱為 **資料列**] 的部分參考資料可能尚未更新。當您在進行實驗室作業時，請記住這一點。我們預期很快就會完全更新提供的內容。
-
-如需詳細資訊及受影響字詞的完整清單，請造訪[什麼是 Microsoft Dataverse？](https://docs.microsoft.com/zh-tw/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
 
 # 案例
 
@@ -69,7 +63,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
 
 2.  建立發佈者
 
-    -   按一下 **[發佈者]** 下拉式清單，然後選取 **[+ 發佈者]**
+    -   在 [**發佈者**] 區段，選取 [**+ 發佈者**]
 
     -   在快顯視窗中，輸入 **[Bellows College]** 做為 **[顯示名稱]** 
 
@@ -77,7 +71,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。校園訪客�
     
     -   輸入 **bc** 做為**前置詞**
 
-    -   按一下 **[儲存並關閉]**
+    -   按一下**儲存**
     
     -   在快顯視窗中按一下 **[完成]**。
 
