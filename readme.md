@@ -1,4 +1,13 @@
-﻿# PL-900：Power Platform 基本概念
+**Important Notice!**
+
+This repo was replaced by a [new repo](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals.zh-tw) on December 18th 2021. We're making this change to improve the localized version of this content and reduce the delta between English and localized content updates. 
+After a short interval, this repo will be archived.
+
+**Contributions**
+
+At this time, we are not accepting external contributions to this repo. If you have suggestions or spot any errors, please create a pull request or report an issue on the [new repo](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals.zh-tw).
+
+# PL-900：Power Platform 基本概念
 
 - **[下載最新學生手冊和所有檔案內容](../../releases/latest)**
 - **您是 MCT 嗎？** - 請參閱[適用於 MCT 的 GitHub 使用者指南](https://microsoftlearning.github.io/MCT-User-Guide/)
